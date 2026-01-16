@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0861c801-e9d2-4731-bc4a-9e628f638253/deploy-status)](https://app.netlify.com/projects/portfoliojimnineria/deploys)
+# My React Portfolio
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
