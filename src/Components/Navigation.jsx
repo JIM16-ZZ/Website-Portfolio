@@ -47,13 +47,14 @@ export default function Navigation() {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="flex items-center justify-between h-16 lg:h-20">
                         {/* Logo */}
-                        <a 
-                            href="#" 
-                            onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                            className="text-white font-bold text-xl"
+                        <button
+                        type="button"
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                        className="text-white font-bold text-xl bg-transparent border-none cursor-pointer"
                         >
-                            JP<span className="text-teal-400">.</span>
-                        </a>
+                        JP<span className="text-teal-400">.</span>
+                        </button>
+
 
                         {/* Desktop Navigation */}
                         <div className="hidden lg:flex items-center gap-8">
